@@ -3,6 +3,7 @@
 :root {
 
     --color-accent: #F27618;
+    --color-accent40: #FAD0A3;
     --color-header: #7D7A75;
 
     --color-dark: #463F35;
@@ -17,6 +18,7 @@
 @theme inline {
   --color-header: var(--color-header);
   --color-accent: var(--color-accent);
+  --color-accent40: var(--color-accent40);
 
   --color-dark: var(--color-dark);
   --color-dark50: var(--color-dark50);
