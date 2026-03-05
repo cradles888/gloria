@@ -11,29 +11,24 @@ const RangeInput = ({ step = 0.1, min = 0.0, max = 17.0 }) => {
 
     return (
         <div className="border border-dark40 rounded-4xl px-4">
-            <div className="flex  items-center justify-center text-sm text-dark50 w-52 my-3">
-                <div className="flex gap-2 justify-start w-[12vw]">
+            <div className="flex gap-4 sm:gap-8 items-center justify-between text-sm text-dark50  my-3">
+                <div className="flex justify-end gap-1 text-base">
                     <p className="min-w-max">От</p>
-                    <input
-                        type="text"
-                        value={values[0] + " млн"}
-                        name=""
-                        id=""
-                        className="text-start text-dark font-medium inset-0 w-full transition outline-none"
-                        onChange={(event) => this.inputChangedHandler(event)}
-                    />
+                    <div className="w-16 text-left">
+
+                        {/* Фиксированная ширина */}
+                        <p className="text-dark font-medium min-w-max">{values[0] + " млн"}</p>
+                    </div>
                 </div>
+                <div className="w-5 sm:w-10 h-px bg-dark"></div>
                 {/* <div className='w-12 h-px bg-dark'></div> */}
-                <div className="flex justify-end w-[18vw]">
+                <div className="flex justify-end gap-1 text-base">
                     <p className="min-w-max">До</p>
-                    <input
-                        type="text"
-                        value={values[1] + " млн"}
-                        name=""
-                        id=""
-                        className="text-end text-dark font-medium inset-0 w-[50%] outline-none"
-                        onChange={(event)=>this.inputChangedHandler(event)}
-                    />
+                    <div className="w-16 text-right">
+
+                        {/* Фиксированная ширина */}
+                        <p className="text-dark font-medium min-w-max">{values[1] + " млн"}</p>
+                    </div>
                 </div>
             </div>
             <Range

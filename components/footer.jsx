@@ -109,7 +109,7 @@ const Footer = () => {
                                 Суббота и воскресенье — выходные
                             </p>
                         </div>
-                        <div className="flex gap-3 mb-6">
+                        <div className="grid gap-y-4 sm:flex gap-3 mb-6">
                             <Button text="Сообщение" size={'sm'} variant={'accent'}/>
                             <Button text="+7 (8162) 62-38-00" size={'sm'} variant={'white'}/>
                         </div>

@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
 
                 {/* Аккордеон меню */}
-                <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 mt-4' : 'max-h-0'}`}>
+                <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 mt-6' : 'max-h-0'}`}>
                     <div className='bg-header rounded-3xl p-6'>
                         {/* Навигационные ссылки */}
                         <div className='flex flex-col gap-4 text-white mb-6'>
