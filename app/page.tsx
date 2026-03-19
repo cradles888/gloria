@@ -18,27 +18,7 @@ export default function Home() {
 
 
 
-        {/* <CardCompex name={'ЖК Раздолье'} street={'ул. Кочетова'} price={'От 5.4 млн'} imageUrl={'/main-card-compex-razdolje.png'}/> */}
-      <div className="absolute inset-0 rounded-4xl overflow-hidden">
-  <div className="h-30 overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-dark40/50 [&::-webkit-scrollbar-thumb:hover]:bg-dark40 [&::-webkit-scrollbar-track]:bg-transparent [scrollbar-width:thin] [scrollbar-color:#404040_transparent]">
-    <div className="bg-dark15 px-5 pt-8 pb-6 sm:px-8 sm:py-12">
-      {/* ваш контент */}
-      
-        <p className='h-10 w-20 '>1</p>
-        <p className='h-10 w-20 '>1</p>
-        <p className='h-10 w-20 '>1</p>
-        <p className='h-10 w-20 '>1</p>
-        <p className='h-10 w-20 '>1</p>
-        <p className='h-10 w-20 '>1</p>
-        <p className='h-10 w-20 '>1</p>
-      
-      {/* кнопка внизу */}
-      <div className="sticky bottom-0 left-4 z-10">
-        {/* <Button text="Перейти на страницу ЖК" size="md" variant="accent" /> */}
-      </div>
-    </div>
-  </div>
-</div>
+       <CardCompex name={'ЖК Раздолье'} street={'ул. Кочетова'} price={'От 5.4 млн'} imageUrl={'/main-card-compex-razdolje.png'}/>
 
       </div>
     </div>
