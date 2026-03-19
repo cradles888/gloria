@@ -18,7 +18,7 @@ export default function Home() {
 
 
 
-       <CardCompex name={'ЖК Раздолье'} street={'ул. Кочетова'} price={'От 5.4 млн'} imageUrl={'/main-card-compex-razdolje.png'}/>
+       <CardComplex name={'ЖК Раздолье'} street={'ул. Кочетова'} price={'От 5.4 млн'} imageUrl={'/main-card-compex-razdolje.png'}/>
 
       </div>
     </div>
